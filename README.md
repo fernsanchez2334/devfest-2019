@@ -4,7 +4,10 @@ Welcome to our project! This project aims to educate our audience about sustaina
 
 ## environment setup
 To run this project locally, you will need a couple things:
-- python3
-``` $ brew install python3 ```
-- Flask
-``` $ pip install flask ```
+- python3 ``` $ brew install python3 ```
+- Flask ``` $ pip install flask ```
+- Node.js
+- twilio ``` $ npm install twilio```
+
+## to run
+``` $ node send_sms.js```
