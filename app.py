@@ -12,6 +12,18 @@ def home():
 def learn(): 
 	return render_template("learn.html")
 
+@app.route('/track1')
+def track1(): 
+	return render_template("track1.html")
+
+@app.route('/track2')
+def track2(): 
+	return render_template("track2.html")
+
+@app.route('/track3')
+def track3(): 
+	return render_template("track3.html")
+
 @app.route("/name")
 def name():
 	return "Kim Santiago"
