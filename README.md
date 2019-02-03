@@ -9,8 +9,12 @@ To run this project locally, you will need a couple things:
 - Node.js
 - twilio ``` $ npm install twilio```
 - Express.js ``` $ npm install express```
+- Requests ``` $ pip install requests ```
 
 ## to run
+``` $ source bin/activate```
+
 ``` $ node send_sms.js```
 
-Make sure you are running on the command line (in separate tabs) both 'node server.js' and your 'ngrok' command.
+For twilio:
+Make sure you are running on the command line (in separate tabs) both 'node server.js' and your 'ngrok http 1337' command.
