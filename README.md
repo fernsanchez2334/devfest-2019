@@ -4,7 +4,7 @@ Welcome to our project! This project aims to educate our audience about sustaina
 
 
 ## to run
-``` $ git clone https://github.com/fernsanchez2334/devfest-2019.git```
+> $ git clone https://github.com/fernsanchez2334/devfest-2019.git
 ``` $ cd devfest-2019```
 ``` $ source bin/activate```
 Now install all env setup things you need (specified below). Once that's done:
