@@ -8,6 +8,9 @@ To run this project locally, you will need a couple things:
 - Flask ``` $ pip install flask ```
 - Node.js
 - twilio ``` $ npm install twilio```
+- Express.js ``` $ npm install express```
 
 ## to run
 ``` $ node send_sms.js```
+
+Make sure you are running on the command line (in separate tabs) both 'node server.js' and your 'ngrok' command.
