@@ -13,8 +13,13 @@ To run this project locally, you will need a couple things:
 
 ## to run
 ``` $ source bin/activate```
+Install all env setup things you need
+``` $ python app.py```
+The app should be running on 
+```localhost:5000```
 
+To send messages using twilio
 ``` $ node send_sms.js```
 
-For twilio:
+To respond to messages using twilio:
 Make sure you are running on the command line (in separate tabs) both 'node server.js' and your 'ngrok http 1337' command.
